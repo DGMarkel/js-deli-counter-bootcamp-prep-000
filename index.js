@@ -3,6 +3,14 @@ function takeANumber(katzDeli, name) {
   return `Welcome, ${name}. You are number ${katzDeli.indexOf(name) + 1} in line.`;
 }
 
+function nowServing(deliLine, name) {
+  if (deliLine === undefined) {
+    return 'There is nobody waiting to be served!';
+  } else {
+    return `Currently serving ${deliLine.shift([0])}`
+  }
+}
+
 
 
 function currentLine(deliLine) {
