@@ -11,8 +11,6 @@ function nowServing(deliLine, name) {
   }
 }
 
-
-
 function currentLine(deliLine) {
   if (deliLine[0] === undefined) {
     return 'The line is currently empty.';
@@ -20,6 +18,7 @@ function currentLine(deliLine) {
     for (let i = 1; i < deliLine.length; i++) {
       deliLine[i] = (i) + '. ' + deliLine[i];
     }
+    return deliLine.toString();
   }
-  return deliLine.tostring;
+
 }
