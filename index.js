@@ -7,7 +7,7 @@ function nowServing(deliLine, name) {
   if (deliLine === undefined) {
     return 'There is nobody waiting to be served!';
   } else {
-    return `Currently serving ${deliLine.shift([0])}`
+    return `Currently serving ${deliLine.shift([0])}.`
   }
 }
 
