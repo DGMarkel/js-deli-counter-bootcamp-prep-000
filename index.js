@@ -16,7 +16,7 @@ function currentLine(deliLine) {
     return 'The line is currently empty.';
   } else {
     for (let i = 0; i < deliLine.length; i++) {
-      deliLine[i] = (i + 1) + '. ' + deliLine[i] + ' ';
+      deliLine[i] = ' ' + (i + 1) + '. ' + deliLine[i];
     }
     deliLine.unshift('The line is currently: ');
     return deliLine.toString();
