@@ -5,7 +5,6 @@ function takeANumber(katzDeli, name) {
 }
 }
 
-Welcome, Ada. You are number 1 in line
 
 function currentLine(deliLine) {
   if (deliLine[0] === undefined) {
