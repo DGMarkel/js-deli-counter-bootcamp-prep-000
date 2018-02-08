@@ -18,6 +18,7 @@ function currentLine(deliLine) {
     for (let i = 1; i < deliLine.length; i++) {
       deliLine[i] = (i) + '. ' + deliLine[i];
     }
+    deliLine.unshift('The line is currently: ');
     return deliLine.toString();
   }
 
